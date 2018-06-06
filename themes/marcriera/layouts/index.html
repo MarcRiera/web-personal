@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }} - {{ .Site.Params.Description }}</title>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    {{ .Hugo.Generator }}
+
+  </head>
+  <body>
+
+    <div id="container">
+
+      <div id="header">
+
+        {{ if isset .Site.Params "logoimage" }}
+        <div id="site-logo">
+            <img alt="Site logo" src="{{ .Site.BaseURL }}{{ .Site.Params.logoimage }}">
+        </div>
+        {{ end }}
+
+	<div id="site-title">{{ .Site.Title }}</div>
+	<div id="site-slogan">{{ .Site.Params.Description }}</div>
+	<div id="site-slogan">{{ .Site.Params.Description2 }}</div>
+
+
+      </div>
+
+
+<div id="content">
+  {{ .Content }}
+</div>
+
+      <div id="footer">
+        {{ now.Year }} - {{ $.Site.Params.copyright }}
+      </div>
+
+    </div>
+
+  </body>
+</html>

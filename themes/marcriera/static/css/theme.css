@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i');
+
+/* Basic theme elements */
+
+html {
+  background: #7C454F;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 175%;
+  font-weight: 600;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+h2 {
+  font-size: 150%;
+  font-weight: 600;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+h3 {
+  font-size: 132%;
+  margin-bottom: .3em;
+}
+
+h4 {
+  font-size: 116%;
+  font-weight: 600;
+  margin-bottom: .3em;
+}
+
+h5 {
+  font-size: 100%;
+  font-weight: 600;
+  margin-bottom: .3em;
+}
+
+h6 {
+  font-size: 85%;
+  font-weight: 600;
+  margin-bottom: .3em;
+}
+
+p {
+  margin: .5em 0 .5em 0;
+}
+
+/* Hyperlinks */
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #EEEEEE;
+}
+
+a:hover,
+a.selected {
+  color: #BBBBBB;
+}
+
+
+/* Images */
+
+img {
+  margin: auto;
+  max-width:100%;
+  max-height:100%;
+  display: block;
+}
+
+img.right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+img.left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+
+/* Thematic breaks */
+
+hr {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 2.5em 0;
+}
+
+
+
+/* Main container */
+
+#container {
+  background: #C05165;
+  margin: auto;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #9E4B5A;
+}
+
+
+/* Header */
+
+#header {
+  padding-top: 15px;
+  display: block;
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+#site-logo {
+  max-width:100%;
+  max-height:100%;
+  display: block;
+  margin: auto;
+}
+
+#site-title {
+  padding: 10px 20px 0 20px;
+  font-weight: 600;
+  font-size: 220%;
+  display: block;
+  float: none;
+  margin: auto;
+}
+
+#site-slogan {
+  padding: 0px 5px;
+}
+
+
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  clear: both;
+  font-size: 12px;
+}
+
+
+/* Page title */
+
+#page-title {
+  padding: 10px 20px 10px 20px;
+  background: #3E3E3E;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
+}
+
+#page-title h1 {
+  margin: 0;
+  border-bottom: none;
+}
+
+
+/* Page content */
+
+#content {
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.timestamp,
+.tags {
+  color: #777;
+}
+
+#content .timestamp {
+  padding-bottom: 1em;
+}
+
+#content a:link,
+#content a:active,
+#content a:visited {
+  color: #EEEEEE;
+}
+
+#content a:hover,
+#content a.selected {
+  color: #CCCCCC;
+}
+
