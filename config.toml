@@ -1,3 +1,12 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://mrtraduccions.cat/"
+title = "Marc Riera Irigoyen"
+theme = "marcriera"
+DefaultContentLanguage = "ca"
+removePathAccents = true
+
+[params]
+  name = "Marc Riera Irigoyen"
+  copyright = "Marc Riera Irigoyen"
+  logoimage = "images/logo.png"
+  description = "Translator and localizer"
+  description2 = "EN,RO > CA,ES"
