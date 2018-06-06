@@ -82,7 +82,7 @@ img {
   margin: auto;
   max-width:100%;
   max-height:100%;
-  display: block;
+  display: inline;
 }
 
 img.right {
@@ -132,7 +132,8 @@ hr {
   max-width:100%;
   max-height:100%;
   display: block;
-  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #site-title {
